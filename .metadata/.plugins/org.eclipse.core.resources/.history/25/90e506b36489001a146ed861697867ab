@@ -1,0 +1,5 @@
+package com.huyhue.controller;
+
+public class IndexServlet {
+
+}

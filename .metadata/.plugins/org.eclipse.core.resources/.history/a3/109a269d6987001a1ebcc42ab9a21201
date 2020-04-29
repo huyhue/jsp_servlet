@@ -1,0 +1,5 @@
+package ducky.models;
+
+public class Image {
+
+}

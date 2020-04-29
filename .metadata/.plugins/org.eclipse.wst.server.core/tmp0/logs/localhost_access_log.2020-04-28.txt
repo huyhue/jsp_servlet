@@ -1,0 +1,16 @@
+127.0.0.1 - - [28/Apr/2020:22:15:01 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:15:47 +0700] "GET /lession2-servlet/WEB-INF/classes/com/huy/controllers/SendMessage.java HTTP/1.1" 404 802
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:16:45 +0700] "GET /lession2-servlet/WEB-INF/classes/com/huy/controllers/SendMessage.java HTTP/1.1" 404 802
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:19:01 +0700] "GET /lession2-servlet/WEB-INF/classes/com/huy/controllers/SendMessage.java HTTP/1.1" 404 802
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:31:21 +0700] "GET /lession03-jsp-servlet/index.html HTTP/1.1" 404 745
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:32:01 +0700] "GET /lession03-jsp-servlet/index.html HTTP/1.1" 404 745
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:34:40 +0700] "GET /lession03-jsp-servlet/index.html HTTP/1.1" 404 745
+127.0.0.1 - - [28/Apr/2020:22:36:35 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:36:41 +0700] "GET /lession03-jsp-servlet/index.html HTTP/1.1" 500 1219
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:37:07 +0700] "GET /lession03-jsp-servlet/index.html?name=Nguy?n%20V?n%20A&age=20 HTTP/1.1" 500 1360
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:37:28 +0700] "GET /lession03-jsp-servlet/index.html?name=Nguy?n%20V?n%20A&age=20 HTTP/1.1" 500 1360
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:38:03 +0700] "GET /lession03-jsp-servlet/index.jsp HTTP/1.1" 200 402
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:39:19 +0700] "GET /lession03-jsp-servlet/index.html HTTP/1.1" 500 1219
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:39:36 +0700] "GET /lession03-jsp-servlet/index.html?name=Nguyen&age=20 HTTP/1.1" 500 1348
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:39:38 +0700] "GET /lession03-jsp-servlet/index.html?name=Nguyen&age=20 HTTP/1.1" 500 1348
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:22:39:45 +0700] "GET /lession03-jsp-servlet/index.html?name=Nguyen&age=20 HTTP/1.1" 500 1348

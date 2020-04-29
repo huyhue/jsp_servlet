@@ -1,0 +1,8 @@
+127.0.0.1 - - [29/Apr/2020:11:24:51 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:37:15 +0700] "GET /lesson04-post-parameters/index.php HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:38:27 +0700] "GET /lesson04-post-parameters/index.jsp HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:42:06 +0700] "GET /lesson04-post-parameters/index.php HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:43:23 +0700] "GET /lesson04-post-parameters/index.php HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:45:43 +0700] "GET /lesson04-post-parameters/index.php HTTP/1.1" 404 747
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:46:05 +0700] "GET /lesson04-post-parameters/index HTTP/1.1" 404 743
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:11:48:58 +0700] "GET /lesson04-post-parameters/index.php HTTP/1.1" 404 747

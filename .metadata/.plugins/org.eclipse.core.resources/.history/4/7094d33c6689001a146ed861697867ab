@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>${title }</h1>
+	<p>
+		Tên : ${ name } <br/>
+		Tuổi : ${ age } tuổi
+	</p>
+	<a href="index.html?name=Nguyễn Văn A&age=20">Lấy Tên & Tuổi</a>
+	<form action="index.html">
+		<input name="name"/>  <br/>
+		<input name="age"/>  <br/>
+		<button formmethod="get">Gửi</button>
+	</form>
+</body>
+</html>

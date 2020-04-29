@@ -1,0 +1,41 @@
+<%@ page isELIgnored="false" %>  
+
+<%@ page import="ducky.models.Image" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	Image name: <%= ((Image) request.getAttribute("imageName")).getName() %>
+	<img alt="Ca sau khoa than vi moi truong" src="image/crocodile.png">
+	
+	<% pageContext.setAttribute("scope", "Page Content"); %>
+	</br>
+	Scope of the attribute: <%=pageContext.getAttribute("scope") %>
+	</br>
+	Scope of the attribute by EL: ${pageScope.scope }
+	</br>
+	Scope of the attribute by EL: ${pageScope["scope"]}
+	</br>
+	Scope of the attribute by EL: ${ 4 + 5 }
+	</br>
+	Student name is: ${requestScope.student.name}
+	</br>
+	<%= application.getInitParameter("account") %>  </br>
+	Account: ${initParam.account }
+	
+	</br>
+	Other scope of the attribute: <%=pageContext.findAttribute("otherScope") %>
+	</br>
+	Session scope of the attribute: <%=pageContext.getAttribute("otherScope", PageContext.SESSION_SCOPE) %>
+	</br>
+	Request scope of the attribute: <%=pageContext.getAttribute("otherScope", PageContext.REQUEST_SCOPE) %>
+	</br>
+	Application scope of the attribute: <%=pageContext.getAttribute("otherScope", PageContext.APPLICATION_SCOPE) %>
+	
+</body>
+</html>
